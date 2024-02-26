@@ -296,7 +296,7 @@ max-width: 100%;
   }
 
   .hamburger{
-    display: flex;
+    display: block;
   }
   
   .navbar {
