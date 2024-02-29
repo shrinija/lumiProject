@@ -5,10 +5,10 @@ function changeImageOnMobile() {
   // Check if the viewport width is less than or equal to 768 pixels (you can adjust this threshold)
   if (window.innerWidth <= 860) {
     // Change the source of the image for mobile view
-    myImage.src = "./topimgsmall.png";
+    myImage.src = "./images/topimgsmall.png";
   } else {
     // Change the source of the image for desktop view
-    myImage.src = "./topimage.png";
+    myImage.src = "./images/topimage.png";
   }
 }
 
@@ -34,4 +34,15 @@ hamburger.addEventListener("click", () => {
     mobileNav.classList.remove("new-links");
     mobileNav.classList.add("mobile-nav");
   }
+});
+
+
+
+//.............................
+
+const allButtons=document.querySelectorAll('button');
+allButtons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    console.log('Button Clicked: ' + button.textContent);
+  })
 });
