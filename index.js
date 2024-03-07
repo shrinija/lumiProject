@@ -5,10 +5,10 @@ function changeImageOnMobile() {
   // Check if the viewport width is less than or equal to 768 pixels (you can adjust this threshold)
   if (window.innerWidth <= 860) {
     // Change the source of the image for mobile view
-    myImage.src = "./images/topimgsmall.png";
+    myImage.src = "./images/home-banner1-mobile.jpg";
   } else {
     // Change the source of the image for desktop view
-    myImage.src = "./images/topimage.png";
+    myImage.src = "./images/home-banner1-desktop.jpg";
   }
 }
 
